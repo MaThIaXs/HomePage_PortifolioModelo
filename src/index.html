@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Portifólio | Matheus Ferraz</title>
+</head>
+<body>
+    <div class="flex flex-row min-h-screen overflow-hidden">
+        <div class="bg-slate-50 w-12 lg:w-72 min-h-screen border-r-2 border-purple-600 md:none"><!--Menu Lateral-->
+            <div class="flex flex-none w-full justify-center items-center text-center lg:py-16">
+                <div class="text-purple-900 text-center text-2xl font-extrabold items-center border-indigo-600 invisible lg:visible">DIO<span class="text-yellow-500">.</span>ME</div>
+            </div>
+            <div>
+                <nav class="visible flex w-full mt-40 lg:invisible ">
+                    <ul class="text-left">
+                        <li class="list-inside ml-3 mb-6 w-12 "><a href="#" class="flex justify-start"><i class="fa-solid fa-house text-lg object-contain h-6 w-6 text-slate-800 hover:text-purple-900"></i></a></li>
+                        <li class="list-inside ml-3.5 mb-6 w-12"><a href="#" class="flex justify-start"><i class="fa-solid fa-user text-lg object-contain h-6 w-6 text-slate-800 hover:text-purple-900"></i></a></li>
+                        <li class="list-inside ml-3 mb-6 w-12"><a href="#" class="flex justify-start"><i class="fa-solid fa-briefcase text-lg object-contain h-6 w-6 text-slate-800 hover:text-purple-900"></i></a></li>
+                        <li class="list-inside ml-3 mb-6 w-12"><a href="#" class="flex justify-start"><i class="fa-solid fa-message text-lg object-contain h-6 w-6 text-slate-800 hover:text-purple-900"></i></a></li>
+                    </ul>
+                </nav>
+                <nav class="lg:visible invisible flex w-full -mt-80">
+                    <ul class="text-left text-base">
+                        <li class="list-inside font-bold border-b-2 w-52 border-purple-900 border-opacity-80 mx-6 mb-6 pb-2"><a href="#" class="flex justify-start items-center text-slate-800 hover:text-purple-900"><i class="fa-solid fa-house text-lg mr-2 h-6 w-6 flex items-center "></i>HOME</a></li>
+                        <li class="list-inside font-bold border-b-2 w-52 border-purple-900 border-opacity-80 mx-6 mb-6 pb-2"><a href="#" class="flex justify-start items-center text-slate-800 hover:text-purple-900"><i class="fa-solid fa-user text-lg mr-2 h-6 w-6 flex items-center"></i>ABOUT</a></li>
+                        <li class="list-inside font-bold border-b-2 w-52 border-purple-900 border-opacity-80 mx-6 mb-6 pb-2"><a href="#" class="flex justify-start items-center text-slate-800 hover:text-purple-900"><i class="fa-solid fa-briefcase text-lg mr-2 h-6 w-6 flex items-center"></i>PROJECTS</a></li>
+                        <li class="list-inside font-bold border-b-2 w-52 border-purple-900 border-opacity-80 mx-6 mb-6 pb-2"><a href="#" class="flex justify-start items-center text-slate-800 hover:text-purple-900"><i class="fa-solid fa-message text-lg mr-2 h-6 w-6 flex items-center"></i>CONTACT</a></li>
+                    </ul>
+                </nav>
+                <p class="lg:visible invisible text-center text-xs font-medium text-gray-400 w-full">Copyright © 2023 Dio.me</p>
+            </div>
+        </div>
+        <div class="bg-slate-200 flex-grow w-full min-h-screen"><!--Conteúdo-->
+            <div class="container mx-auto mt-8 md:mt-0 md:space-x-10 md:grid grid-cols-3 justify-center items-center md:py-40">
+                <div class="grid justify-center items-center order-1 col-span-1">
+                    <img class="lg:h-80 md:h-64 h-40 rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="profile picture">
+                </div>
+                <div class="mt-8 md:mt-0 lg:justify-end col-span-2 ">
+                    <h1 class="text-3xl text-slate-800 text-center md:text-left font-bold">Olá, eu sou Matheus Ferraz!</h1>
+                    <p class="text-xl text-slate-800 text-center md:text-left font-medium">Desenvolvedor WEB Front-End. Sou formado em desenvolvimento de sistemas e estou cursando ciência da computação. </p>
+                    <ul class="flex flex-wrap justify-center gap-2 py-4 mt-2">
+                        <li><a class="text-3xl text-slate-800 hover:text-purple-900" href="https://github.com/MaThIaXs" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a class="text-3xl text-slate-800 hover:text-purple-900" href="https://www.linkedin.com/in/matheus-ferraz-pinheiro-dos-santos-936521258/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
